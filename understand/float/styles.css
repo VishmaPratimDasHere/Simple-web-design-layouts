@@ -1,0 +1,52 @@
+/* reset everything to zero */
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+.header{
+  background-color: #F9F9F9;
+  border-left: 5px #F0F0F0;
+  min-height: 25px;
+  text-align: center;
+  font-family: sans-serif;
+  border-radius: 20px;
+  background-color: orange;
+  margin: 20px 0px 20px 0px;
+}
+
+.container{
+  background-color: darkblue;
+  min-height: 80px;
+  padding: 20px 20px 20px 20px;
+  border-radius: 10px;
+  margin: 0px 0px 20px 0px;
+}
+
+.childcontainer{
+  background-color: aquamarine;
+  margin: 20px;
+  border-radius: 20px;
+}
+
+.footer{
+  background-color: black;
+  color: white;
+  font-family: sans-serif;
+  text-align: center;
+  min-height: 25px;
+  font-size: 20px;
+}
+
+.footer ul li{
+  display: inline-block;
+}
+
+.footer ul li a:hover{
+  text-decoration: underline;
+  color: #FC1110;
+}
+
+.footer ul li a{
+  text-decoration: none;
+}

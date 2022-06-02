@@ -1,0 +1,75 @@
+/* First reset. We write * for reset */
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+}
+
+.wrapper{
+  /* border: solid black 5px; */
+  margin: 5px 100px;
+}
+
+.header{
+  background-color: #F9F9F9;
+  text-align: center;
+  padding: 30px;
+  border-left: solid #F8F8F8;
+  border-right: solid #F8F8F8;
+}
+
+.header > h1 > a{
+  text-decoration: none;
+  color: black;
+  font-size: 70px;
+}
+
+.main-nav > ul {
+  background-color: #00A9E0;
+  list-style: none;
+}
+
+.main-nav > ul > li > a{
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+.main-nav > ul > li {
+  display: inline-block;
+  padding: 10px;
+}
+
+.main-nav > ul > li:hover{
+  background-color: black;
+}
+
+.content{
+  background-color: #F8F8F8;
+  min-height: 500px;
+  font-size: 20px;
+  padding: 10px 50px;
+}
+
+.content > img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width:30%;
+  /* border: solid black 10px; */
+}
+
+.content > p{
+  text-align: justify;
+  /* border: solid blue 10px; */
+}
+
+.footer{
+  background-color: grey;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-size: 18px;
+}
